@@ -1,4 +1,4 @@
-<h1><img src="https://media1.tenor.com/images/f38bd4f0ae23b4d7d594c388ab4f09ed/tenor.gif?itemid=12359359" width="30"/> Salut ! Moi c'est gab.</h1>
+<h1><img src="https://avatars.githubusercontent.com/u/47774056?v=4" width="70"/> Salut ! Moi c'est gab.</h1>
 
 <img align="right" alt="Mes stats (pas ouf)" src="https://github-readme-stats.vercel.app/api?username=zephyytb&show_icons=true&hide_border=true" />
 
