@@ -1,14 +1,65 @@
-<h1><img src="https://emoji.discord.st/emojis/c1f543ec-27f4-4dc2-baf0-5c5dcb038d17.gif" width="50"/> Salut ! Moi c'est gab.</h1>
+```php
+<?php
 
-<img align="right" alt="Statistics" src="https://github-readme-stats.vercel.app/api?username=heyimgab&show_icons=true&hide_border=true" />
+namespace gab;
 
-- 💻 Young Vosgian student and developer
+class About extends Me
+{
+    public function getCurrentWorkplace(): array
+    {
+        return [
+            'workplace' => [
+                'company' => 'RDPLab',
+                'location' => 'Swiss'         
+            ]
+        ];
+    }
+    public function getCurrentJob(): array
+    {
+        return [
+            'job' => [
+                'title' => 'Pentester, System & Network Administrator, Musician',
+                'location' => 'Epinal, France'
+            ]
+        ];
+    }
+    public function getCurrentEducation(): array
+    {
+        return [
+            'education' => [
+                'school' => 'Pierre Mendès France High School Epinal',
+                'location' => 'Epinal, France'
+            ]
+        ];
+    }
+    
 
----
+    public function getDailyKnowledge(): array
+    {
+        return [
+            Linux::class,
+            Windows::class,
+            MacOS::class,
+            Cisco::class,
+            Mikrotik::class,
+            Network::class,
+            Security::class,
+            Php::class,
+            Javascript::class,
+            HTML::class,
+            Python::class,
+            Css::class,
+            Git::class,
+            MySql::class,
+            Bash::class,
+            Electron::class,
+            React::class,
+            Vue::class,
+        ];
+    }
 
-## 🌍 Languages: <br/> <br/> ![Python](https://img.shields.io/badge/-Python-020202?style=flat-square&logo=python&logoColor=white) ![HTML](https://img.shields.io/badge/-HTML-020202?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS-020202?style=flat-square&logoColor=white&logo=css3) ![JavaScript](https://img.shields.io/badge/-JavaScript-020202?style=flat-square&logoColor=white&logo=javascript)  ![REACT](https://img.shields.io/badge/-React-020202?style=flat-square&logo=react&logoColor=white) ![nodejs](https://img.shields.io/badge/-NodeJS-020202?style=flat-square&logo=Node.js&logoColor=white) ![Go](https://img.shields.io/badge/-Go-020202?style=flat-square&logo=Go&logoColor=white)
-
-
-<p align="center">
-
-
+    public function getFutureGoal(): string
+    {
+        return 'To make internet safer and faster everyday';
+    }
+}>
