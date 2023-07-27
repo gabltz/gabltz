@@ -1,6 +1,4 @@
 ```php
-<?php
-
 namespace gab;
 
 class About extends Me
