@@ -11,6 +11,9 @@ class About extends Me
             'workplace' => [
                 'company' => 'RDPLab',
                 'location' => 'Swiss'         
+            ];[
+                'company' => 'Clinique La Ligne Bleue - Groupe Louis Pasteur Santé',
+                'location' => 'Epinal'
             ]
         ];
     }
@@ -40,7 +43,6 @@ class About extends Me
             Linux::class,
             Windows::class,
             MacOS::class,
-            Cisco::class,
             Mikrotik::class,
             Network::class,
             Security::class,
@@ -53,8 +55,6 @@ class About extends Me
             MySql::class,
             Bash::class,
             Electron::class,
-            React::class,
-            Vue::class,
         ];
     }
 
