@@ -12,6 +12,9 @@ class About extends Me
             ];[
                 'company' => 'Clinique La Ligne Bleue - Groupe Louis Pasteur Santé',
                 'location' => 'Epinal'
+            ];[
+                'company' => 'Propel Cloud',
+                'location' => 'Nice, France (remote)'
             ]
         ];
     }
