@@ -13,7 +13,7 @@ class About extends Me
                 'company' => 'Clinique La Ligne Bleue - Groupe Louis Pasteur Santé',
                 'location' => 'Epinal'
             ];[
-                'company' => 'Propel Cloud',
+                'company' => 'Propel',
                 'location' => 'Nice, France (remote)'
             ]
         ];
@@ -27,16 +27,6 @@ class About extends Me
             ]
         ];
     }
-    public function getCurrentEducation(): array
-    {
-        return [
-            'education' => [
-                'school' => 'Pierre Mendès France High School Epinal',
-                'location' => 'Epinal, France'
-            ]
-        ];
-    }
-    
 
     public function getDailyKnowledge(): array
     {
@@ -59,8 +49,4 @@ class About extends Me
         ];
     }
 
-    public function getFutureGoal(): string
-    {
-        return 'To make internet safer and faster everyday';
-    }
 }>
