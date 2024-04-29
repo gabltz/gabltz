@@ -1,33 +1,20 @@
 ```php
 namespace gab;
 
-class About extends Me
+class About extends him
 {
     public function getCurrentWorkplace(): array
     {
         return [
             'workplace' => [
-                'company' => 'RDPLab',
-                'location' => 'Swiss'         
-            ];[
                 'company' => 'Clinique La Ligne Bleue - Groupe Louis Pasteur Santé',
-                'location' => 'Epinal'
+                'location' => 'Epinal (on-site)'
             ];[
                 'company' => 'Propel',
                 'location' => 'Nice, France (remote)'
             ]
         ];
     }
-    public function getCurrentJob(): array
-    {
-        return [
-            'job' => [
-                'title' => 'Pentester, System & Network Administrator, Musician',
-                'location' => 'Epinal, France'
-            ]
-        ];
-    }
-
     public function getDailyKnowledge(): array
     {
         return [
